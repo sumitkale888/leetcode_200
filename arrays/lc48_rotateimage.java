@@ -25,3 +25,10 @@ class Solution {
 
 // 1)transpose 
 // 2)reverse each row
+
+
+// Why j = i + 1 is used
+// for(int i = 0; i < n; i++){
+//     for(int j = i + 1; j < n; j++){
+
+// 👉 This ensures you only swap elements above the diagonal (upper triangle of matrix).
