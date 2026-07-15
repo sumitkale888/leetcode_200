@@ -25,3 +25,27 @@ class Solution {
         return new ArrayList<>(res);
     }
 }
+
+// Intuition
+
+// The main idea is:
+
+// Sort the array so we can use two pointers.
+// Fix one number using i.
+// Find the other two numbers using left and right.
+// We want:
+// nums[i] + nums[left] + nums[right] = 0
+
+// Because the array is sorted:
+
+// If sum < 0, the sum is too small → move left++ to get a bigger number.
+// If sum > 0, the sum is too large → move right-- to get a smaller number.
+// If sum == 0, we found a triplet → add it and move both pointers.
+// Sorting        → O(n log n)
+// Outer loop     → O(n)
+// Two pointers   → O(n)
+
+// Total          → O(n log n) + O(n²)
+//                → O(n²)
+
+// Time Complexity: O(n²)

@@ -16,3 +16,11 @@ class Solution {
         return true;
     }
 }
+
+// The Valid Anagram problem (LeetCode 242) asks whether two strings contain the same characters with the same frequencies.
+// Time: O(n)
+// Space: O(1) (array size is fixed at 26)
+
+// Step 1: Why charAt(i) - 'a'?
+
+// Characters have ASCII/Unicode values.
