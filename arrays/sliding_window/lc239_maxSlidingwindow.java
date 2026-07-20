@@ -27,3 +27,6 @@ class Solution {
     }
 
     // brutforce
+//     (n-k+1) × O(k log k)
+
+// ≈ O(nk log k)

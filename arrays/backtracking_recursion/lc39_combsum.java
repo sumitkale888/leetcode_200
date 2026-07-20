@@ -49,6 +49,8 @@ class Solution {
 // target < 0 OR i == arr.length
 
 // → stop exploring
+// Input: candidates = [2,3,6,7], target = 7
+// Output: [[2,2,3],[7]]
 
 //                                (0,7,[])
 //                              /           \
