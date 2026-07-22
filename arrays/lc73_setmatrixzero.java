@@ -46,6 +46,21 @@ class Solution {
     }
 }
 
+Complete algorithm
+Check if the first column originally contains a zero (r).
+Check if the first row originally contains a zero (c).
+Traverse the rest of the matrix.
+If matrix[i][j] == 0, mark:
+matrix[i][0] = 0 (row marker)
+matrix[0][j] = 0 (column marker)
+Traverse the rest again.
+If matrix[i][0] == 0 or matrix[0][j] == 0, set matrix[i][j] = 0.
+If r is true, zero the first column.
+If c is true, zero the first row.
+Complexity
+Time: O(n × m) (each cell is visited a constant number of times)
+Space: O(1) (only two boolean variables are used)
+
 // 🔹 Problem
 
 // If any cell = 0

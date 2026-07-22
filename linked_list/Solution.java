@@ -40,3 +40,15 @@ public class Solution {
         return c;
     }
 }
+
+Complexity
+Time: O(m + n)
+One traversal to compute each length.
+One traversal to align and compare pointers.
+Space: O(1) (constant extra space)
+Core intuition in one sentence
+
+By skipping the extra nodes in the longer list, both 
+pointers become the same distance from the end, so moving
+ them together guarantees they either meet at the first intersection 
+ node or both reach null simultaneously.
