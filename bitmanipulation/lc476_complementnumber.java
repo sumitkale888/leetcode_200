@@ -15,3 +15,6 @@ class Solution {
         return res;
     }
 }
+
+// Check each bit of the number. If the bit is 0, set the corresponding bit in the answer to 1. If the
+//  bit is 1, leave the answer's bit as 0.

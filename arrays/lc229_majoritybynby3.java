@@ -75,3 +75,29 @@ class Solution {
 // count2--
 
 // This represents three different numbers cancelling each other.
+
+// Why only 2 candidates?
+
+// The condition is:
+
+// Find all elements appearing more than ⌊n/3⌋ times.
+
+// Suppose there were 3 such elements.
+
+// Each would appear more than n/3 times.
+
+// So total occurrences would be
+
+// > n/3 + > n/3 + > n/3
+// > n
+
+// which is impossible.
+
+// Hence,
+
+// There can be at most 2 majority elements.
+
+// That's why we keep only
+
+// el1, c1
+// el2, c2

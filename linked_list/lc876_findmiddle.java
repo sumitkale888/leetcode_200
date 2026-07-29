@@ -20,3 +20,12 @@ class Solution {
         
     }
 }
+
+// Use two pointers:
+
+// Slow → moves 1 step at a time.
+// Fast → moves 2 steps at a time.
+
+// Since the fast pointer travels twice as quickly, 
+// by the time it reaches the end of the list, the slow pointer has only
+//  traveled half the distance—so it will be at the middle.
