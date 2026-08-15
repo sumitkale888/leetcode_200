@@ -29,6 +29,13 @@ public class lc142_cycle2 {
     }
 }
 
+// Why resetting works:
+// When slow and fast meet, the distance from head to
+//  the cycle start equals the distance from the meeting point to the cycle 
+ 
+//  start (in the appropriate cycle traversal). Therefore, moving both one step
+//   makes them meet exactly at the cycle's entry.
+
 // 3️⃣ Length of Cycle (very common follow-up)
 
 // After slow and fast meet:
